@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" viewBox="0 0 80 80">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ffbd1b;
+        stroke: #ffbd1b;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        fill: #01024e;
+      }
+
+      .cls-3 {
+        filter: url(#Ellipse_4);
+      }
+    </style>
+    <filter id="Ellipse_4" x="0" y="0" width="80" height="80" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="car" transform="translate(-890 -343)">
+    <g class="cls-3" transform="matrix(1, 0, 0, 1, 890, 343)">
+      <circle id="Ellipse_4-2" data-name="Ellipse 4" class="cls-1" cx="30" cy="30" r="30" transform="translate(10 7)"/>
+    </g>
+    <path id="Icon_awesome-car-side" data-name="Icon awesome-car-side" class="cls-2" d="M26.35,10.464h-.775L20.306,3.483A3.039,3.039,0,0,0,17.885,2.25H7.524A3.107,3.107,0,0,0,4.646,4.315L2.325,10.58A3.249,3.249,0,0,0,0,13.75V19.5a.8.8,0,0,0,.775.821H3.1A4.8,4.8,0,0,0,7.75,25.25a4.8,4.8,0,0,0,4.65-4.929h6.2a4.8,4.8,0,0,0,4.65,4.929,4.8,4.8,0,0,0,4.65-4.929h2.325A.8.8,0,0,0,31,19.5V15.393A4.8,4.8,0,0,0,26.35,10.464ZM7.75,22.786a2.468,2.468,0,0,1,0-4.929,2.468,2.468,0,0,1,0,4.929Zm3.488-12.321H5.664l1.86-4.929h3.714Zm2.325,0V5.536h4.323l3.72,4.929ZM23.25,22.786a2.468,2.468,0,1,1,2.325-2.464A2.4,2.4,0,0,1,23.25,22.786Z" transform="translate(914.7 366)"/>
+  </g>
+</svg>

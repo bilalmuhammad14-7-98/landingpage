@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" viewBox="0 0 80 80">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ffbd1b;
+        stroke: #ffbd1b;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        fill: #01024e;
+      }
+
+      .cls-3 {
+        filter: url(#Ellipse_4);
+      }
+    </style>
+    <filter id="Ellipse_4" x="0" y="0" width="80" height="80" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="shut" transform="translate(-890 -421)">
+    <g class="cls-3" transform="matrix(1, 0, 0, 1, 890, 421)">
+      <circle id="Ellipse_4-2" data-name="Ellipse 4" class="cls-1" cx="30" cy="30" r="30" transform="translate(10 7)"/>
+    </g>
+    <path id="Icon_material-airport-shuttle" data-name="Icon material-airport-shuttle" class="cls-2" d="M24.045,7.5H4.318A3.078,3.078,0,0,0,1.5,10.786V25.571H4.318c0,2.711,1.888,4.929,4.227,4.929s4.227-2.218,4.227-4.929h7.75c0,2.711,1.888,4.929,4.227,4.929s4.227-2.218,4.227-4.929H32.5V17.357ZM4.318,17.357V10.786H9.955v6.571ZM8.545,28.036a2.306,2.306,0,0,1-2.114-2.464,2.306,2.306,0,0,1,2.114-2.464,2.306,2.306,0,0,1,2.114,2.464A2.306,2.306,0,0,1,8.545,28.036Zm9.864-10.679H12.773V10.786h5.636ZM24.75,28.036a2.306,2.306,0,0,1-2.114-2.464,2.306,2.306,0,0,1,2.114-2.464,2.306,2.306,0,0,1,2.114,2.464A2.306,2.306,0,0,1,24.75,28.036ZM21.227,17.357V10.786h1.409l5.636,6.571Z" transform="translate(913 439)"/>
+  </g>
+</svg>

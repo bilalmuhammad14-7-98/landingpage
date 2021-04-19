@@ -1,0 +1,300 @@
+
+@media(max-height:968px){
+  #apppage .view {
+    background-image: url("../Assets/Group 18.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right ;
+    border-radius: 0%;
+    height: 100vh;
+  }
+  .heading{
+    font-family: Porter;
+    font-size: 4rem;
+    color: #01024e;
+  }
+  
+  .down{
+    color: #01024e;
+    font-family: Porter;
+  }
+  .beta{
+    color: #01024e;
+    margin: 0rem;
+  
+  }
+}
+
+#apppage .view {
+  background-image: url("../Assets/Group 18.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right ;
+  border-radius: 0%;
+  height: 100vh;
+}
+
+.heading{
+  font-family: Porter;
+  font-size: 2rem;
+  color: #01024e;
+}
+
+.down{
+  color: #01024e;
+  font-family: Porter;
+}
+.beta{
+  color: #ffbd1b;
+  margin: 0rem;
+font-size: 1.5rem;
+}
+.andbtn{
+  border-radius: 21px;
+}
+
+
+
+
+
+    /* Extra small devices (portrait phones, less than 576px) */
+    @media (max-width: 575px) { 
+      #apppage .view {
+        background-image: url("../Assets/mobbg.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom ;
+        border-radius: 0%;
+        height: 100vh;
+      }
+      .heading{
+        font-family: Porter;
+        font-size: 1.57rem;
+        color: #fff;
+      }
+
+      .para{
+        color: #fff;
+      }
+      .andbtn{
+        border-radius: 0px;
+      }
+     }
+    
+     /* Small devices (landscape phones, 576px and up) */
+    @media (min-width: 576px) and (max-width: 767px) { 
+      #apppage .view {
+        background-image: url("../Assets/mobbg.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom ;
+        border-radius: 0%;
+        height: 100vh;
+      }
+
+      .para{
+        color: #fff;
+      }
+
+      .heading{
+        font-family: Porter;
+        font-size: 1.57rem;
+        color: #fff;
+      }
+      .andbtn{
+        border-radius: 0px;
+      }
+     }
+    
+   /* Medium devices (tablets, 768px and up) */
+    @media (min-width: 768px) and (max-width: 991px) { 
+      #apppage .view {
+        background-image: url("../Assets/mobbg.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom ;
+        border-radius: 0%;
+        height: 100vh;
+      }
+
+      .heading{
+        font-family: Porter;
+        font-size: 2rem;
+        color: #01024e;
+      }
+
+
+      .andbtn{
+        border-radius: 0px;
+      }
+     }
+
+
+@media(min-height:1366px){
+  #apppage .view {
+    background-image: url("../Assets/Group 18.svg");
+    
+    background-repeat: no-repeat;
+    background-size: 600px 500px;
+    background-position: right ;
+    height: 65vh;
+  }
+}
+
+
+/* ----------- iPad 3, 4 and Pro 9.7" ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    #apppage .view {
+      background-image: url("../Assets/Group 18.svg");
+      
+      background-repeat: no-repeat;
+      background-size: 440px 500px;
+      background-position: right ;
+      height: 65vh;
+    }
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    #apppage .view {
+      background-image: url("../Assets/Group 18.svg");
+      
+      background-repeat: no-repeat;
+      background-size: 440px 500px;
+      background-position: right ;
+      height: 65vh;
+    }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    #apppage .view {
+      background-image: url("../Assets/Group 18.svg");
+      
+      background-repeat: no-repeat;
+      background-size: 440px 500px;
+      background-position: right ;
+      height: 65vh;
+    }
+}
+
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+@media (min-width: 768px){
+.pr-md-5 {
+    padding-right: 9rem!important;
+}
+}
+@media (min-width: 768px){
+  .pl-md-5 {
+      padding-right: 3rem!important;
+  }
+  }
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 100vh;
+  }
+}
+
+
+
+
+.top-nav-collapse {
+  background-color: #ffbd1b !important;
+  
+}
+
+.top-nav-collapse .pur {
+  color: #01024e !important;
+  
+}
+
+
+/* .navbar.navbar-dark .navbar-nav .nav-item a {
+  color: rgb(244, 102, 66);
+} */
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+  
+}
+
+.navbar:not(.top-nav-collapse) .nav-link  {
+  color: #01024e !important;
+  
+}
+.top-nav-collapse .nav-link  {
+  color: #01024e !important;
+  
+}
+.navbar:not(.top-nav-collapse) .pur{
+  color: #01024e !important;
+  
+}
+
+.navbar:not(.top-nav-collapse){
+  box-shadow: none;
+}
+.top-nav-collapse{
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+}
+
+
+
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #ffbd1b !important;
+  }
+
+
+
+  @media only screen and (max-width: 400px) {
+    #apppage .animated img {
+      max-height: 50vh;
+      transform: translateX(-50%);
+      left: 50%;
+      position: absolute;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    #apppage .animated img {
+      max-height: 35vh;
+      transform: translateX(-50%);
+      left: 50%;
+    }
+  }
+  
+  @media (max-width: 767px) and (orientation: landscape) {
+    #apppage .animated img {
+      max-height: 50vh;
+      transform: translateX(-50%);
+      left: 50%;
+      position: relative;
+    }
+  }
+  @media (max-width: 1000px) and (orientation: landscape) {
+    #apppage .view {
+      min-height: 150vh;
+    }
+  }
+}

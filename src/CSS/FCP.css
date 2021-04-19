@@ -1,0 +1,10 @@
+#divmargin{
+    margin-top: 10%;
+  }
+  
+  
+  @media (max-width: 991px) {
+    #divmargin{
+      margin-top: 20%;
+    }
+  }

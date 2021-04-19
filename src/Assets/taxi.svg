@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" viewBox="0 0 80 80">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ffbd1b;
+        stroke: #ffbd1b;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        fill: #01024e;
+      }
+
+      .cls-3 {
+        filter: url(#Ellipse_4);
+      }
+    </style>
+    <filter id="Ellipse_4" x="0" y="0" width="80" height="80" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="taxi" transform="translate(-890 -512)">
+    <g class="cls-3" transform="matrix(1, 0, 0, 1, 890, 512)">
+      <circle id="Ellipse_4-2" data-name="Ellipse 4" class="cls-1" cx="30" cy="30" r="30" transform="translate(10 7)"/>
+    </g>
+    <path id="Icon_awesome-taxi" data-name="Icon awesome-taxi" class="cls-2" d="M27.973,13.013,26.641,8.657a4.86,4.86,0,0,0-4.65-3.121h-.678V3.893A1.809,1.809,0,0,0,19.375,2.25h-7.75A1.809,1.809,0,0,0,9.688,3.893V5.536H9.009a4.86,4.86,0,0,0-4.65,3.121L3.027,13.013A3.458,3.458,0,0,0,0,16.214v2.464a3.225,3.225,0,0,0,1.938,2.83v2.1A1.809,1.809,0,0,0,3.875,25.25H5.813A1.809,1.809,0,0,0,7.75,23.607V21.964h15.5v1.643a1.809,1.809,0,0,0,1.938,1.643h1.938a1.809,1.809,0,0,0,1.938-1.643v-2.1A3.226,3.226,0,0,0,31,18.679V16.214A3.458,3.458,0,0,0,27.973,13.013ZM5.813,18.679a1.809,1.809,0,0,1-1.937-1.643,1.809,1.809,0,0,1,1.938-1.643A1.809,1.809,0,0,1,7.75,17.036,1.809,1.809,0,0,1,5.813,18.679Zm1.244-5.75L8.1,9.522a1.057,1.057,0,0,1,.912-.7H21.991a1.046,1.046,0,0,1,.9.66l1.053,3.447Zm18.131,5.75a1.809,1.809,0,0,1-1.937-1.643,1.809,1.809,0,0,1,1.938-1.643,1.809,1.809,0,0,1,1.938,1.643A1.809,1.809,0,0,1,25.188,18.679Z" transform="translate(914.032 535.56)"/>
+  </g>
+</svg>
